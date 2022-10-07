@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  # URI=postgres://admin:strongpassword@localhost:5430/
+
+  postgres:
+    image: postgres:14.1
+    restart: always
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=strongpassword
+    volumes:
+      - postgres:/var/lib/postgresql/data
+    ports:
+      - '5430:5432'
+
+volumes:
+  postgres:

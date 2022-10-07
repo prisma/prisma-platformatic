@@ -1,0 +1,22 @@
+{
+  "name": "platformatic-prisma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "platformatic db start",
+    "dev": "npm start",
+    "prisma:migrate:diff": "node ./migrate-diff.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "detect-package-manager": "2.0.1",
+    "execa": "6.1.0",
+    "platformatic": "0.3.0"
+  },
+  "devDependencies": {
+    "prisma": "4.4.0"
+  }
+}
