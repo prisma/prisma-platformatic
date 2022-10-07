@@ -6,7 +6,7 @@
   "scripts": {
     "start": "platformatic db start",
     "dev": "npm start",
-    "prisma:migrate:diff": "node ./migrate-diff.mjs"
+    "prisma:migrate:diff": "node ./scripts/migrate-diff.mjs"
   },
   "keywords": [],
   "author": "",
