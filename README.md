@@ -12,7 +12,7 @@ cd prisma-platformatic
 npm i
 ```
 
-Start up the docker with docker compose
+Start up the container with docker compose
 ```
 docker-compose up -d
 ```
