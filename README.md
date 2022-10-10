@@ -1,6 +1,8 @@
 # Platformatic Prisma integration
 
-## Clone the repository
+## Usage
+
+Clone the repository
 
 ```
 git clone git@github.com:ruheni/prisma-platformatic.git
