@@ -19,6 +19,22 @@ Start up the container with docker compose
 docker-compose up -d
 ```
 
+Create a `.env` file at the root of your project directory:
+
+```
+touch .env
+```
+
+Paste in the following snippet in your `.env` file:
+```bash
+# .env
+PORT=3042 
+PLT_SERVER_HOSTNAME=127.0.0.1 
+PLT_SERVER_LOGGER_LEVEL=info
+
+# update it with your database connection string from the previous step DATABASE_URL="postgres://admin:strongpassword@localhost:5430/prisma-platformatic"
+```
+
 Start up Platformatic:
 ```
 npm run dev
