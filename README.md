@@ -32,7 +32,8 @@ PORT=3042
 PLT_SERVER_HOSTNAME=127.0.0.1 
 PLT_SERVER_LOGGER_LEVEL=info
 
-# update it with your database connection string from the previous step DATABASE_URL="postgres://admin:strongpassword@localhost:5430/prisma-platformatic"
+# update it with your database connection string
+DATABASE_URL="postgres://admin:strongpassword@localhost:5430/prisma-platformatic"
 ```
 
 Start up Platformatic:
