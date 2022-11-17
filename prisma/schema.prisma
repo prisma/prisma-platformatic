@@ -24,13 +24,3 @@ model Post {
   author    User?    @relation(fields: [authorId], references: [id])
   authorId  Int?
 }
-
-// used by [postgrator](https://github.com/rickbergfalk/postgrator) to keep track of applied migrations
-model versions {
-  version BigInt    @id
-  name    String?
-  md5     String?
-  run_at  DateTime? @db.Timestamptz(6)
-
-  @@ignore
-}

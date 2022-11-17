@@ -1,13 +1,16 @@
 {
   "name": "platformatic-prisma",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Prisma 💚 Platformatic",
+  "keywords":["prisma", "platformatic", "postgrator"],
+  "bugs":{
+    "url" : "https://github.com/ruheni/prisma-platformatic/issues"
+  },
+  "homepage": "https://github.com/ruheni/prisma-platformatic#readme",
   "scripts": {
     "start": "platformatic db start",
     "dev": "npm start"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
