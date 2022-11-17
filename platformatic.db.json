@@ -11,13 +11,5 @@
   },
   "migrations": {
     "dir": "./migrations"
-  },
-  "plugin": {
-    "path": "./plugin.mjs",
-    "watch": true,
-    "watchOptions": {
-      "hotReload": true,
-      "allow": ["plugin.mjs"]
-    } 
   } 
 }
