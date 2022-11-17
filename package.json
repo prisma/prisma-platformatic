@@ -5,18 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "platformatic db start",
-    "dev": "npm start",
-    "prisma:migrate:diff": "node ./scripts/migrate-diff.mjs"
+    "dev": "npm start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "detect-package-manager": "2.0.1",
-    "execa": "6.1.0",
-    "platformatic": "0.3.0"
+    "@prisma/client": "4.6.1",
+    "platformatic": "0.7.0"
   },
   "devDependencies": {
-    "prisma": "4.4.0"
+    "@ruheni/db-diff": "0.2.5",
+    "prisma": "4.6.1"
   }
 }
