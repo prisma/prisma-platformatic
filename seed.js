@@ -1,4 +1,3 @@
-/// <reference path="./global.d.ts" />
 'use strict'
 
 module.exports = async function ({ entities, db }) {
