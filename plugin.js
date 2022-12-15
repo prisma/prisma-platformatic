@@ -1,7 +1,7 @@
-import { PrismaClient } from "@prisma/client"
+const { PrismaClient } = require("@prisma/client")
 
 const prisma = new PrismaClient()
-export default async function (app) {
+module.exports = async (app) => {
   app.log.info('plugin loaded')
   // Extend GraphQL Schema with resolvers
   app.graphql.extendSchema(`
