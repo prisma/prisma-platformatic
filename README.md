@@ -3,7 +3,7 @@
 Article series:
 - [Part 1: Why Prisma and Platformatic are a great match ](https://dev.to/prisma/why-prisma-and-platformatic-are-a-great-match-2dkl)
 - [Part 2: Friendly Data Modeling & Auto-generated, Editable Migrations for Platformatic with Prisma](https://dev.to/prisma/friendly-data-modeling-auto-generated-editable-migrations-for-platformatic-with-prisma-dib)
-- Part 3: Extend your Platformatic API with Prisma Client 
+- [Part 3: Extend your Platformatic API with Prisma Client](https://dev.to/prisma/extend-your-platformatic-api-with-prisma-client-3p92)
 
 
 ## Usage
