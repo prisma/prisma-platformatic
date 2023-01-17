@@ -14,11 +14,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "4.8.1",
+    "@prisma/client": "4.9.0",
     "platformatic": "0.13.0"
   },
   "devDependencies": {
     "@ruheni/db-diff": "0.2.5",
-    "prisma": "4.8.1"
+    "prisma": "4.9.0"
   }
 }
