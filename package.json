@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "platformatic": "0.13.1"
+    "platformatic": "0.14.0"
   }
 }
