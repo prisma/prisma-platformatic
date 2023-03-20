@@ -3,7 +3,7 @@ services:
   # DATABASE_URL=postgres://admin:strongpassword@localhost:5432/blog
 
   postgres:
-    image: postgres:15.1-alpine
+    image: postgres:15.2-alpine
     restart: always
     environment:
       - POSTGRES_USER=admin
