@@ -18,7 +18,7 @@
     "platformatic": "0.18.0"
   },
   "devDependencies": {
-    "@ruheni/db-diff": "0.2.6",
+    "@ruheni/db-diff": "0.2.8",
     "prisma": "4.11.0"
   }
 }
