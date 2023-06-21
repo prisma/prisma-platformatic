@@ -15,7 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "@prisma/client": "4.16.0",
-    "platformatic": "0.26.1"
+    "platformatic": "0.27.0"
   },
   "devDependencies": {
     "@ruheni/db-diff": "0.2.9",
