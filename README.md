@@ -1,3 +1,5 @@
+> **Archived.** This repository is an unmaintained sample from a 2023 blog series. Its last update was January 2024 and its dependencies are out of date, including known security advisories. Do not use it in production. It is kept read-only so the article links below keep working.
+
 # Platformatic Prisma integration
 
 Article series:
